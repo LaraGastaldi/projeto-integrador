@@ -1,0 +1,290 @@
+[
+    {
+        "id": 1,
+        "autor": 0,
+        "nome": "Slender",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Slender: The Seven Missing Pages \u00e9 um jogo de terror, onde o objetivo \u00e9 procurar pelas sete p\u00e1ginas para sobreviver ao 'homem' de terno sem rosto.",
+        "imagem": "imagens\/slender.jpg"
+    },
+    {
+        "id": 2,
+        "autor": 0,
+        "nome": "Resident Evil",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Resident Evil: \u00c9 um jogo onde seu objetivo \u00e9 tentar sobreviver neste lugar repleto de criaturas e seres humanos infectados.",
+        "imagem": "imagens\/residentevil.jpg"
+    },
+    {
+        "id": 3,
+        "autor": 0,
+        "nome": "Silent Hill",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Silent Hill: \u00c9 um jogo onde o personagem vive dentro de uma cidade que est\u00e1 dentro da sua cabe\u00e7a com todos os seu medos refletidos em monstros, onde voc\u00ea ter\u00e1 de enfrent\u00e1 los, e tentar sobreviver.",
+        "imagem": "imagens\/silenthill.jpg"
+    },
+    {
+        "id": 4,
+        "autor": 0,
+        "nome": "FnaF",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Cercado por animatronicos assombrados, voc\u00ea \u00e9 um guarda noturno cujo \u00fanico dever e desejo \u00e9 sair vivo dessa pizzaria fantasmag\u00f3rica.",
+        "imagem": "imagens\/fnaf.png"
+    },
+    {
+        "id": 5,
+        "autor": 0,
+        "nome": "Friday the 13th: The Game",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Friday the 13th: \u00c9 um jogo de sobreviv\u00eancia, onde voc\u00ea deve fugir dos assassinos a solta que est\u00e3o indo atr\u00e1s de voc\u00ea.",
+        "imagem": "imagens\/friday.jpg"
+    },
+    {
+        "id": 6,
+        "autor": 0,
+        "nome": "Emily wants to Play",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Voc\u00ea \u00e9 um entregador de pizza apressado para terminar seu servi\u00e7o. Na \u00faltima casa a ser entregue, ningu\u00e9m atende \u00e0 porta, ent\u00e3o voc\u00ea, resitando, entra na casa e logo se arrepende",
+        "imagem": "imagens\/emily.png"
+    },
+    {
+        "id": 7,
+        "autor": 0,
+        "nome": "Sara is Missing",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Voc\u00ea apanha um celular do ch\u00e3o e logo, atrav\u00e9s da assistente virtual do mesmo, descobre que a dona est\u00e1 desaparecida. Usando seus contatos, mensagens, e-mails, e imagens, voc\u00ea faz o poss\u00edvel para saber onde a menina foi parar, descobre-se que n\u00e3o foi apenas um desaparecimento.",
+        "imagem": "imagens\/sara.jpg"
+    },
+    {
+        "id": 8,
+        "autor": 0,
+        "nome": "P.T.",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "PT, praticamente era uma Demo onde voc\u00ea deveria percorrer a casa em loop, fugindo da criatura que assombra a casa.",
+        "imagem": "imagens\/pt.jpg"
+    },
+    {
+        "id": 9,
+        "autor": 0,
+        "nome": "Amnesia",
+        "categoria": "Terror",
+        "autor": "0",
+        "descricao": "Amnesia, jogo onde voc\u00ea deve permanecer consciente e sano para sobreviver e fugir das criaturas desse lugar",
+        "imagem": "imagens\/amnesia.jpg"
+    },
+    {
+        "id": 10,
+        "autor": 0,
+        "nome": "Shadow of the colossus",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Em shadow of the colossus voc\u00ea estar\u00e1 exilado em terras amaldi\u00e7oadas, voc\u00ea ter\u00e1 que derrotar 16 colossus em busca de reviver a sua amada.",
+        "imagem": "imagens\/shadow.png"
+    },
+    {
+        "id": 11,
+        "autor": 0,
+        "nome": "Assassin's Creed",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Jogo onde voc\u00ea faz parte da ordem dos assassinos que desejam a paz atrav\u00e9s do livre arb\u00edtrio e deve derrotar os Templ\u00e1rios.",
+        "imagem": "imagens\/ac.jpg"
+    },
+    {
+        "id": 12,
+        "autor": 0,
+        "nome": "GTA V",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Neste jogo totalmente freeroam, voc\u00ea pode realizar v\u00e1rias coisas, desde um assalto de caminh\u00e3o, at\u00e9 persegui\u00e7\u00e3o de velhinhas na rua.",
+        "imagem": "imagens\/gtaa.jpg"
+    },
+    {
+        "id": 13,
+        "autor": 0,
+        "nome": "Pay Day 2",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Junto de 3 ou mais jogadores, voc\u00eas ter\u00e3o que bolar uma estrat\u00e9gia para roubar um banco.",
+        "imagem": "imagens\/payday2.jpg"
+    },
+    {
+        "id": 14,
+        "autor": 0,
+        "nome": "The Biding of Isaac",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Fugindo de sua m\u00e3e ao tentar te matar, Isaac foge para o por\u00e3o, enfrentando l\u00e1 criaturas.",
+        "imagem": "imagens\/isac.jpg"
+    },
+    {
+        "id": 15,
+        "autor": 0,
+        "nome": "The Legend of Zelda",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Voc\u00ea jogar\u00e1 com o personagem e her\u00f3i Link cuja miss\u00e3o \u00e9 proteger o reino de Hyrule e a Triforce, a rel\u00edquia deixada pelas Deusas criadoras do mundo.",
+        "imagem": "imagens\/zelda.jpg"
+    },
+    {
+        "id": 16,
+        "autor": 0,
+        "nome": "World of Tanks",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Jogo multiplayer onde voc\u00ea pode possuir tanque de guerra de v\u00e1rias na\u00e7\u00f5es, e jogar em diversos modos de jogo, destruindo os tanques inimigos.",
+        "imagem": "imagens\/wot.jpg"
+    },
+    {
+        "id": 17,
+        "autor": 0,
+        "nome": "Tomb Raider",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Jogando com a personagem Lara Croft, uma jovem mulher que \u00e9 sobrevivente experiente. Armada apenas com os seus instintos e a capacidade de ir al\u00e9m dos limites da resist\u00eancia humana, Lara precisa lutar para desvendar a hist\u00f3ria sombria de uma ilha esquecida para fugir das suas garras.",
+        "imagem": "imagens\/tomb-raider.jpg"
+    },
+    {
+        "id": 18,
+        "autor": 0,
+        "nome": "God of War",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "Kratos, um guerreiro espartano enganado para matar sua esposa e filha por seu antigo mestre, o deus da guerra Ares. Revelado ser um semideus e filho de Zeus, o rei dos deuses do Olimpo, que trai Kratos. O espartano em seguida busca vingan\u00e7a contra os deuses para suas maquina\u00e7\u00f5es.",
+        "imagem": "imagens\/godofwar.png"
+    },
+    {
+        "id": 19,
+        "autor": 0,
+        "nome": "Doom",
+        "categoria": "A\u00e7\u00e3o-Aventura",
+        "autor": "0",
+        "descricao": "O jogador recebe o papel de um fuzileiro espacial, que foi deportado para Marte e subitamente, algo d\u00e1 errado e criaturas aparentemente vindas do inferno come\u00e7am a surgir das \u00e1reas de teletransporte.",
+        "imagem": "imagens\/doom.jpeg"
+    },
+    {
+        "id": "20",
+        "autor": 0,
+        "nome": "Dark Souls III",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Neste mundo tomado pelo Abismo, cheios de criatura amaldi\\u00e7oadas, voc\\u00ea ter\\u00e1 que decidir o destino de seu mundo nas trevas ou na luz.",
+        "imagem": "imagens\/dark-souls.jpg"
+    },
+    {
+        "id": 21,
+        "autor": 0,
+        "nome": "Bloodborne",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Nesta terra Amaldi\u00e7oada pelo sangue ruim, e criaturas grotescas, voc\u00ea deve enfrentar, para achar a cura.",
+        "imagem": "imagens\/bloodborne.jpg"
+    },
+    {
+        "id": 22,
+        "autor": 0,
+        "nome": "Undertale",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Voc\u00ea deve escolher um caminho. Matar os monstros para sobreviver, ou arriscar a pr\u00f3pria vida em nome deles?",
+        "imagem": "imagens\/under.jpg"
+    },
+    {
+        "id": 23,
+        "autor": 0,
+        "nome": "StarBound",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Com o objetivo de salvar o mundo, voc\u00ea \u00e9 mandado em v\u00e1rias miss\u00f5es para resgatar diversas tribos\/povos de muitos mundos.",
+        "imagem": "imagens\/starbound.png"
+    },
+    {
+        "id": 24,
+        "autor": 0,
+        "nome": "The Sims 4",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Em um mundo totalmente manipul\u00e1vel, voc\u00ea pode construir sua pr\u00f3pria fam\u00edlia, personalizar seus sims, e conseguir objetivos especiais desbloqueando cap\u00edtulos para seus sims fazerem",
+        "imagem": "imagens\/sims.jpg"
+    },
+    {
+        "id": 25,
+        "autor": 0,
+        "nome": "League of Legends",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "os jogadores assumem o papel de \"invocadores\", controlando campe\u00f5es com habilidades \u00fanicas e que lutam com seu time contra outros invocadores. No modo mais popular do jogo, o objetivo de cada time \u00e9 destruir o nexus da equipe advers\u00e1ria, uma constru\u00e7\u00e3o localizada na base e protegida por outras estruturas.",
+        "imagem": "imagens\/lol.jpg"
+    },
+    {
+        "id": 26,
+        "autor": 0,
+        "nome": "The Witcher 3",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Seu protagonista, deve enfrentar  o macabro ex\u00e9rcito de cavaleiros que deixam somente sangue e ru\u00edna por onde passa, o jogador ter\u00e1 de enfrentar diversos perigos usando espadas e magia num mundo em crise.",
+        "imagem": "imagens\/witcher.jpg"
+    },
+    {
+        "id": 27,
+        "autor": 0,
+        "nome": "Tera",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Seu protagonista, deve enfrentar  o macabro ex\u00e9rcito de cavaleiros que deixam somente sangue e ru\u00edna por onde passa, o jogador ter\u00e1 de enfrentar diversos perigos usando espadas e magia num mundo em crise.",
+        "imagem": "imagens\/tera.jpg"
+    },
+    {
+        "id": 28,
+        "autor": 0,
+        "nome": "Pokemon:Platina",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "O jogador controla um personagem crian\u00e7a em sua aventura pela regi\u00e3o de Sinnoh; que come\u00e7a ao receber um dos tr\u00eas pok\u00e9mons iniciais - Chimchar, Turtwig ou Piplup.",
+        "imagem": "imagens\/pokemon.png"
+    },
+    {
+        "id": 29,
+        "autor": 0,
+        "nome": "World of Warcraft",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Uma nova era de guerras se inicia, e os her\u00f3is de Azeroth ter\u00e3o que partir numa jornada para recrutar novos aliados, disputar os recursos mais valiosos do mundo para dominar o conflito e combater em diversas linhas de frente para determinar se ser\u00e1 a Horda ou a Alian\u00e7a quem conduzir\u00e1 o futuro incerto de Azeroth.",
+        "imagem": "imagens\/wow.jpg"
+    },
+    {
+        "id": 30,
+        "autor": 0,
+        "nome": "Final Fantasy",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "O mundo de Final Fantasy VII \u00e9 chamado dentro de jogo de simplesmente \"o Planeta\", por\u00e9m foi retroativamente nomeado Gaia e \u00e9 formado por tr\u00eas massas continentais principais.",
+        "imagem": "imagens\/final.png"
+    },
+    {
+        "id": 31,
+        "autor": 0,
+        "nome": "Earthbound",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Em EarthBound voc\u00ea n\u00e3o vai encontrar espadas, drag\u00f5es e nada parecido. Mas vai se deparar com hippies alucinados, criaturas espaciais, durante a aventura \u00e9 melhor estar pronto para refer\u00eancias aos costumes suburbanos e ideias que l\u00e1 no fundo toda pessoa tem mas parece ser absurda, como a do vizinho malvado.",
+        "imagem": "imagens\/earthbound.jpg"
+    },
+    {
+        "id": 32,
+        "autor": 0,
+        "nome": "Fallout 4",
+        "categoria": "RPG",
+        "autor": "0",
+        "descricao": "Voc\u00ea est\u00e1 em um mundo p\u00f3s-apocal\u00edptico, onde agora est\u00e1 cheio de criaturas mutantes e de pessoas mal intencionadas e agora voc\u00ea de sobreviver a tudo isso.",
+        "imagem": "imagens\/fallout.jpeg"
+    }
+]

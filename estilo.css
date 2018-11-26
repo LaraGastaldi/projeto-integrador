@@ -1,0 +1,499 @@
+/*
+	ESTILO BASICO DO SITE
+*/
+html{
+	background-image: url('imagens/fundo.jpg');
+	font-family: 'Raleway';
+}
+html a{
+	text-decoration-line: none;
+}
+
+/*
+	HEADER
+*/
+.comeco{
+}
+.espacamento10{
+	width: 5%;
+	float: left;
+	color: #011628;
+}
+#logo{
+	width: 25%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.espacamento{
+	width: 40%;
+	float: left;
+	color: #011628;
+}
+.login{
+	width: 22%;
+	float: left;
+	font-weight: bolder;
+}
+.caxinha{
+	width: 40%;
+	border: 1px dashed #000;
+	background-color: #fff;
+	margin: 1%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+.cax{
+	width: 40%;
+	border: 1px dashed #000;
+	background-color: #63eddb;
+	margin: 1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 140%;
+
+}
+.caxi{
+	width: 40%;
+	border: 1px dashed #000;
+	background-color: #FA677B;
+	margin: 1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 120%;
+
+}
+.iconizin{
+	width: 20%;
+	float: left;
+	cursor: pointer;
+}
+.divider{
+	clear: both;
+}
+.menu{
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+}
+.menuzin{
+	background-color: #f84159;
+	width: 16%;
+	float: left;
+	text-align: center;
+	border: 1px solid #000;
+	cursor: pointer;
+	text-decoration-line: none;
+	color: black;
+	padding: 0.5%;
+}
+.menuzin:hover {
+	background-color: #bc293c;
+	width: 16%;
+	float: left;
+	text-align: center;
+	border: 1px solid #000;
+	cursor: pointer;
+	text-decoration-line: none;
+	color: white;
+	padding: 0.5%;
+}
+
+label{
+	width: 40%;
+}
+
+.espacamento2{
+	width: 12%;
+	float: left;
+	color: #f84159;
+}
+.espacamento3{
+	width: 33%;
+	float: left;
+}
+#pesk{
+	border-radius: 10px;
+	width: 14%;
+	
+}
+#peskk{
+	border-radius: 10px;
+	
+}
+#mascote{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 20%;
+}
+/*
+	PAGINA INICIAL
+*/
+.espacamento4{
+	width: 25%;
+	float: left;
+}
+.destaques{
+	width: 50%;
+	float: left;
+	border: 1px solid #000;
+	font-weight: bolder;
+}
+.destaque {
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.destaque:hover .image {
+  opacity: 0.3;
+}
+
+.destaque:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 300%;
+}
+.espacamento5{
+	width: 10%;
+	float: left;
+}
+.destaques{
+	width: 75%;
+	float: left;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 1%;
+}
+#res{
+	font-weight: bolder;
+	font-size: 130%;
+}
+.destaquezinho{
+	width: 17%;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 1%;
+	cursor: pointer;
+}	
+.resenhaimg{
+	width: 100%;
+	height: 20%;
+	border-radius: 10px;
+}
+.coluna10{
+	width: 10%;
+	float: left;
+	color:#3c414b;
+}
+.rodapei{
+	bottom: 0;
+	left: 0;
+	background-color: #1d2151;
+	width: relative;
+	padding: 1%;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+.rodapei a{
+	font-weight: bolder;
+	color: white;
+}
+.article{
+	margin: 2%;
+	border-radius: 10px;
+}
+.article2{
+	margin: 2%;
+	color: white;
+}
+#foto{
+	width: 40%;
+	float: left;
+	pointer-events: none;
+	margin: 1%;
+}
+.dados{
+	width: 50%;
+	height: 55%;
+	float: left;
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin: 1%;
+	padding: 1%;
+	background: #fdfffc;
+}
+.lista{
+	background-image: url("horror.png");
+	background-size: 100%;
+	width: 30%;
+	float: left;
+	border: 1px solid #fff;
+	margin: 1%;
+	border-radius: 10px;
+}
+.listaa{
+	background-image: url("acav.jpg");
+	background-size: 100%;
+	width: 30%;
+	float: left;
+	border: 1px solid #fff;
+	margin: 1%;
+	border-radius: 10px;
+}
+.listaaa{
+	background-image: url("rpg.jpg");
+	background-size: 110%;
+	width: 30%;
+	float: left;
+	border: 1px solid #fff;
+	margin: 1%;
+	border-radius: 10px;
+}
+h3{
+	text-align: center;
+}
+.foto{
+	width: 100%;
+	height: 60%;
+}
+.article3{
+	background-color: #fff;
+	border: 1px solid #000;
+	margin: 2%;
+	border-radius: 10px;
+	width: 40%;
+	padding: 1%;
+	padding-bottom: 4%;
+}
+#cad{
+	border-radius: 10px;
+}
+li{
+	padding-left: 5%;
+}
+li a{
+	color: white;
+	text-decoration-line: none;
+}
+#terror{
+	background-image: url("horror.png");
+	background-size: 100%;
+}
+#acaoaventura{
+	background-image: url("acav.jpg");
+	background-size: 100%;
+}
+#rpg{
+	background-image: url("rpg.jpg");
+	background-size: 100%;
+}
+#titulo{
+	width: 40%;
+	border-radius: 10px;
+	height: 5%;
+	font-size: 200%;
+	margin-left: 2%;
+}
+#descricao{
+	width: 90%;
+	border-radius: 10px;
+	height: 30%;
+	font-size: 130%;
+	margin-left: 2%;
+}
+.res{
+	width: 60%;
+	float: left;
+	margin-left: 2%;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #fdfffc;
+	padding: 1%;
+}
+.imagem{
+	border: 2px solid #000;
+	background-color: #fdfffc;
+	border-radius: 10px;
+	padding: 2%;
+	padding-left: 7%;
+	height: 20%;
+	padding-top: 10%;
+}
+.etc{
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+}
+.enviarr{
+	width: 40%;
+	border-radius: 5px;
+	border: 1px solid #000;
+	padding: 2%;
+	margin: 2%;
+	font-size: 150%;
+	background-color: #63eddb;
+}
+.cancelar{
+	width: 50%;
+	border-radius: 5px;
+	background-color: #FA677B;
+	padding: 1%;
+	color: black;
+	text-decoration-line: none;
+}
+.um{
+	width: 40%;
+	float: left;
+}
+.categorias{
+	width: 60%;
+	float: left;
+	background-color: #fdfffc;
+	margin-left: 2%;
+	border-radius: 10px;
+}
+.sub3{
+	width: 29%;
+	float: left;
+	border-right: 1px dashed #000;
+	padding: 2%;
+}
+
+/*table {
+   border-width: 0;
+   width: 100%;
+   max-width: 100%;
+   font-family: "metropolis-regular", sans-serif;
+}
+
+th, td {
+   padding: 1.5rem 3rem;
+   text-align: left;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+th {
+   color: #000000;
+   font-family: "metropolis-bold", sans-serif;
+}
+
+td {
+   line-height: 1.5;
+}
+
+th:first-child, td:first-child {
+   padding-left: 0;
+}
+
+th:last-child, td:last-child {
+   padding-right: 0;
+}*/
+
+.table-responsive {
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+}
+h4{
+	margin-left: 75%;
+}
+.espacamento11{
+	width: 25%;
+	float: left;
+	color: #011628;
+}
+.dados5{
+	width: 40%;
+	float: left;
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 2%;
+}
+.botaozinhu{
+	border: 1px solid #000;
+	padding: 1%;
+	border-radius: 5px;
+	background-color: #f84159;
+}
+.lado{
+	width: 20%;
+	float: right;
+}
+.branco{
+	color: #fff;
+}
+.comentarios{
+	width: 70%;
+	float: left;
+}
+.icone{
+	width: 10%;
+	float: left;
+}
+.caixa{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 85%;
+	float: left;
+	margin: 1%;
+	padding: 0.5%;
+}
+.editar{
+	width: 5%;
+	float: right;
+}
+.info{
+	width: 19%;
+	border-radius: 10px;
+	]
+
+
+	padding: 1%;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #000;
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id_user": 0,
+        "nome": "admin",
+        "tipo": "administrador",
+        "senha": "admin",
+        "data": "",
+        "genero": "n\/a"
+    },
+    {
+        "id_user": 1,
+        "nome": "miranha_gamer",
+        "tipo": "comum",
+        "email": "miranha.g@gmail.com",
+        "senha": "miranha123",
+        "data": "1998-08-12",
+        "genero": "m"
+    },
+    {
+        "id_user": 2,
+        "nome": "camile",
+        "tipo": "comum",
+        "email": "comunista@gmail.com",
+        "senha": "soviet",
+        "confsenha": "soviet",
+        "data": "",
+        "genero": "f"
+    }
+]

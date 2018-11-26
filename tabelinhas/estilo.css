@@ -1,0 +1,42 @@
+section{
+	width: 40%;
+	float: left;
+}
+table{
+	border: 2px solid #000;
+	font-size: 90%;
+	background-color: #aaa;
+}
+td{
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.indice{
+	font-size: 120%;
+	font-weight: bolder;
+}
+div{
+	border: 2px solid red;
+	width: 20%;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+}
+a{
+	text-decoration-line: none;
+	color: #000;
+}
+form{
+	width: 40%;
+	float: right;
+}
+input{
+	border-radius: 5px;
+	margin: 1%;
+	width: 40%;
+}
+html{
+	border: 10px solid #ccc;
+	padding: 1%;
+	padding-bottom: 21%;
+}
