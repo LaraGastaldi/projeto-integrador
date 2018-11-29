@@ -127,11 +127,11 @@ label{
 #pesk{
 	border-radius: 10px;
 	width: 14%;
-	
+
 }
 #peskk{
 	border-radius: 10px;
-	
+
 }
 #mascote{
 	position: fixed;
@@ -217,7 +217,7 @@ label{
 	padding-right: 2%;
 	margin: 1%;
 	cursor: pointer;
-}	
+}
 .resenhaimg{
 	width: 100%;
 	height: 20%;
@@ -366,6 +366,10 @@ li a{
 	width: 30%;
 	float: left;
 	margin-left: 2%;
+	background-color: white;
+	padding: 1%;
+	border: 1px solid black;
+	border-radius: 10px;
 }
 .enviarr{
 	width: 40%;

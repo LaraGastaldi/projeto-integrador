@@ -25,9 +25,7 @@ if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
     if ($vazio) {
 ?>
             <h3 style="color: red;">Você não enviou nenhuma resenha ainda!</h3><br>
-            <a href="cadastroResenha.php">
-                <h3>Enviar agora!</h3>
-            </a>
+            <a href="cadastroResenha.php"><h3>Enviar agora!</h3></a>
 <?php
     } else {
 ?>
@@ -56,10 +54,13 @@ if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
 ?>
                     </tbody>
                 </table>
-            </div>
-    </section>
 <?php
     }
+?>
+            </div>
+          </section>
+          <div class="divider"></div>
+<?php
     include "rodape.php";
 } else {
     echo ('<meta http-equiv="refresh" content="0;url=paginaLogin.php">');

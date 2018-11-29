@@ -3,15 +3,15 @@
         "id_user": 0,
         "nome": "admin",
         "tipo": "administrador",
-        "senha": "admin"
+        "senha": "admin",
+        "data": "",
+        "genero": "n/a"
     },
     {
         "nome": "miranha_gamer",
         "email": "miranha.g@gmail.com",
         "senha": "miranha123",
-        "confsenha": "miranha123",
         "data": "1998-08-12",
         "genero": "m",
-        "cpf": ""
     }
 ]

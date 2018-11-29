@@ -1,4 +1,19 @@
 <?php
+//buscaJogo
+//buscaJogoAutor
+//listaJogosCategoria
+//updateResenha
+//sortLikes
+//buscaJogoLikes
+//buscaUsuarioLike*
+//addLike
+//buscaJogoPorNome
+//buscaJogoPorCategoria
+//procurarUsuario
+//procuraUsuarioId
+//logarUsuario
+//cadastrarUsuario
+//escolherMascote
 
 	function buscaJogo($id){
 		$jogo = array();
@@ -120,6 +135,7 @@
             if ($valor['cod_res'] == $cod) {
                 if ($valor['id_user'] == $id){
                     return true;
+										break;
                 }
             }
         }
@@ -174,10 +190,6 @@
 		}else{
 			return false;
 		}
-	}
-
-	function escolheBusca($busca){
-
 	}
 
 	function procurarUsuario($nome){
