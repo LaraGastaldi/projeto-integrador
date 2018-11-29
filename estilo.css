@@ -469,10 +469,6 @@ h4{
 .branco{
 	color: #fff;
 }
-.comentarios{
-	width: 70%;
-	float: left;
-}
 .icone{
 	width: 10%;
 	float: left;
@@ -491,11 +487,7 @@ h4{
 	float: right;
 }
 .info{
-	width: 19%;
 	border-radius: 10px;
-	]
-
-
 	padding: 1%;
 	float: left;
 	background-color: #fff;

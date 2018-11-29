@@ -1,19 +1,4 @@
 <?php
-//buscaJogo
-//buscaJogoAutor
-//listaJogosCategoria
-//updateResenha
-//sortLikes
-//buscaJogoLikes
-//buscaUsuarioLike*
-//addLike
-//buscaJogoPorNome
-//buscaJogoPorCategoria
-//procurarUsuario
-//procuraUsuarioId
-//logarUsuario
-//cadastrarUsuario
-//escolherMascote
 
 	function buscaJogo($id){
 		$jogo = array();
@@ -113,9 +98,48 @@
 		return $dados;
 	}
 
+	function buscaJogoMedia($cod){
+		$dadosjson = file_get_contents('json/media.json');
+		$dados = json_decode($dadosjson, true);
+		foreach ($dados as $valor) {
+			if ($valor['cod_res'] == $cod) {
+				return $valor['media'];
+			}
+		}
+	}
+
+	function addMedia($cod, $id, $media){
+		$dadosjson = file_get_contents('json/media.json');
+		$existe = false;
+		$dados = json_decode($dadosjson, true);
+		$mediauserjson = file_get_contents('json/mediauser.json');
+		$mediauser = json_decode($mediauserjson, true);
+		foreach ($dados as $pos => $valor){
+			if ($valor['cod_res'] == $cod) {
+				$dados[$pos]['media'] = ($dados[$pos]['media'] + $media) / 2;
+				break;
+			}
+		}
+		foreach ($mediauser as $pos => $valor) {
+			if ($valor['cod_res'] == $cod) {
+				if ($valor['id_user'] == $id) {
+					$mediauser[$pos]['media'] = $media;
+					$existe = true;
+					break;
+				}
+			}
+		}
+		if ($existe == false) {
+			$mediauser[] = array("cod_res" => $cod, "id_user" => $id, "media" => $meda);
+		}
+		$json = json_encode($dados, JSON_PRETTY_PRINT);
+    file_put_contents('json/media.json', $json);
+		$json2 = json_encode($mediauser, JSON_PRETTY_PRINT);
+    file_put_contents('json/mediauser.json', $json2);
+	}
+
 	function buscaJogoLikes($cod){
 		$dadosjson = file_get_contents('json/info.json');
-
 		$dados = json_decode($dadosjson, true);
 		foreach ($dados as $valor) {
 			if ($valor['cod_res'] == $cod) {
@@ -141,21 +165,53 @@
         }
     }
 
-	function addLike($cod){
+	function addLike($cod, $id){
 		$dadosjson = file_get_contents('json/info.json');
-
 		$dados = json_decode($dadosjson, true);
+		$likesjson = file_get_contents('json/likes.json');
+		$likes = json_decode($likesjson, true);
 
 		foreach ($dados as $pos => $valor) {
     		if ($valor['cod_res'] == $cod) {
     			$dados[$pos]['likes']++;
-    			$json = json_encode($dados, JSON_PRETTY_PRINT);
-        		file_put_contents('info.json', $json);
-                break;
+          break;
     		}
-    	}
+    }
+		$likes[] = array("cod_res" => $cod, "id_user" => $id);
 		$json = json_encode($dados, JSON_PRETTY_PRINT);
-        file_put_contents('json/info.json', $json);
+    file_put_contents('json/info.json', $json);
+		$json2 = json_encode($likes, JSON_PRETTY_PRINT);
+    file_put_contents('json/likes.json', $json2);
+	}
+
+	function removelike($cod, $id){
+		$dadosjson = file_get_contents('json/info.json');
+		$dados = json_decode($dadosjson, true);
+		$likesjson = file_get_contents('json/likes.json');
+		$likes = json_decode($likesjson, true);
+
+		foreach ($dados as $pos => $valor) {
+    		if ($valor['cod_res'] == $cod) {
+    			$dados[$pos]['likes']--;
+          break;
+    		}
+    }
+		//echo "proc: cod:$cod, id:$id";
+		foreach ($likes as $pos => $valor) {
+			//echo "<br>$pos:cod:{$valor['cod_res']} id:{$valor['id_user']}";
+			if ($valor['cod_res'] == $cod) {
+				if ($valor['id_user'] == $id) {
+					unset($likes[$pos]);
+					//echo " Achou";
+					break;
+				}
+			}
+		}
+		//die();
+		$json = json_encode($dados, JSON_PRETTY_PRINT);
+    file_put_contents('json/info.json', $json);
+		$json2 = json_encode($likes, JSON_PRETTY_PRINT);
+    file_put_contents('json/likes.json', $json2);
 	}
 
 	function buscaJogoPorNome($nome){

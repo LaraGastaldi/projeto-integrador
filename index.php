@@ -18,10 +18,10 @@
 	<br><br>
 	<section class="espacamento5">.</section>
 	<section class="destaques">
-		<h2 align="left">Ranking de resenhas</h2>
-		<div class="table-responsive">
-            <table>
-                <thead>
+		<h2>Ranking de resenhas</h2>
+		<div class="container">
+            <table class="table-striped">
+                <thead class="thead-dark">
                    	<tr>
                         <th>Posição</th>
                         <th>Jogo</th>
