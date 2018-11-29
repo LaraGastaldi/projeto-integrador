@@ -5,94 +5,53 @@
 	$usuario1 = procurarUsuario(@$_COOKIE['name']);
 	$mascote = escolherMascote();
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>MindGaming</title>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/javascript.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta charset="utf-8">
-	<link rel="icon" href="icon.png">
-	<style type="text/css">
-		@media (min-width: 300px) {
-  			.navbar {
-    			width: 100%;
-  			}
-		}
-		@media (min-width: 568px) {
-  			.navbar {
-    			width: 100%;
-  			}
-		}
-		@media (min-width: 992px) {
-  			.navbar {
-    			width: 100%;
-  			}
-		}
-		@media (min-width: 1200px) {
-  			.navbar {
-    			width: 100%;
-  			}
-		}
-		.navbar{
-			overflow: hidden;
-			top: 0;
-			left: 0;
-			position: fixed;
-			width: 100;
-			background-color: #1d2151;
-			padding: 1%;
-			height: 4%;
-		}
-		td{
-			height: 100%;
-			min-height: 100%;
-			text-align: center;
-			width: relative;
-		}
-		td a{
-			text-decoration-line: none;
-			font-size: 115%;
-			text-align: center;
-			color: #fff;
-		}
-		td a:hover{
-			transition: 0.2s;
-			text-shadow: 0 0 0.5em white;
-			color: black;
-		}
-		.logo{
-			width: 90%;
-		}
-		.item-icon{
-			width: 12%;
-			float: left;
-		}
-		.item-navbar{
-			width: 10%;
-			float: left;
-			margin-left: 1%;
-			margin-right: 1%;
-		}
-		.user-navbar{
-			width: 10%;
-			float: left;
-			margin-left: 1%;
-			margin-right: 1%;
-		}
-		.gap{
-			color: #1d2151;
-			width: 150px;
-			float: left;
-			border-right: 1px solid black;
-		}
-	</style>
-</head>
-<body>
-	<table>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>MindGaming</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <link rel="icon" href="icon.png">
+    </head>
+
+    <body class="fundo">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <ul class="navbar-nav">
+            	<a class="navbar-brand" href="#">
+    				<img src="logo1.png" alt="Logo" style="width:180px;">
+  				</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Enviar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Suas resenhas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Registrar</a>
+                </li>
+                <form class="form-inline" action="/busca.php">
+    				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    				<button class="btn btn-light" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+  				</form>
+            </ul>
+        </nav>
+        <!-- <table>
 		<tbody class="navbar">
 			<tr>
 				<td class="item-icon"><a href="index.php"><img src="logo1.png" class="logo"></a></td>
@@ -133,7 +92,10 @@
 ?>
 			</tr>
 		</tbody>
-	</table>
-	<div class="divider"></div>
-	<br><br><br><br>
-	<!-- <img src="imagens/<?php print($mascote); ?>.gif" id="mascote"> -->
+	</table> -->
+        <div class="divider"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- <img src="imagens/<?php print($mascote); ?>.gif" id="mascote"> -->

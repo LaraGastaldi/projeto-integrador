@@ -1,7 +1,7 @@
 /*
 	ESTILO BASICO DO SITE
 */
-html{
+.fundo{
 	background-image: url('imagens/fundo.jpg');
 	font-family: 'Raleway';
 }
