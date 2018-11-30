@@ -32,7 +32,8 @@ if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
 		$descricao = $_POST['descricao'];
 		$categoria = $_POST['categoria'];
 		$imagem = $filePath;
-		$array = ["id" => $id, "nome" => $nome, "categoria" => $categoria, "autor" => $autor, "descricao" => $descricao, "imagem" => $imagem];
+		$array = array("id" => $id, "nome" => $nome, "categoria" => $categoria, "autor" => $autor, "descricao" => $descricao, "imagem" => $imagem);
+		print_r($array);
 		enviarResenha($array);
 		echo('<meta http-equiv="refresh" content="10;url=detalhaJogo.php?cod='.$_.'">');
 	}
