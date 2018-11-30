@@ -321,7 +321,7 @@
 			return false;
 		}elseif ($senha == $usuario['senha']) {
 			if ($lembrar == "on") {
-				$cookie_name = $nome;
+				$cookie_name = 'login';
 				$cookie_value = $nome;
 				setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
 			}else{

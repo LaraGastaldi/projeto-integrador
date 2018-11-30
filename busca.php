@@ -1,7 +1,7 @@
 <?php
 	include 'cabecalho.php';
-	$jogos = buscaJogoPorNome($_GET['busca']);
-	$cat = buscaJogoPorCategoria($_GET['busca']);
+	$jogos = buscaJogoPorNome($_POST['busca']);
+	$cat = buscaJogoPorCategoria($_POST['busca']);
 ?>
 
 	<section class="article3">

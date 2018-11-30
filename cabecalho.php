@@ -68,8 +68,8 @@ if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
 <?php
 }
 ?>
-        <form class="form-inline" action="/busca.php">
-          <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Search">
+        <form class="form-inline" method="post" action="busca.php">
+          <input class="form-control form-control-sm mr-sm-2" type="text" name="busca" placeholder="Search">
           <button class="btn btn-light" type="submit">
             <i class="fa fa-search w3-small" aria-hidden="true">
             </i>
