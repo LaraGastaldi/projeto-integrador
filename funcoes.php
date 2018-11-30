@@ -21,6 +21,27 @@
 		return $jogo;
 	}
 
+	function excluirResenha($cod){
+		$dadosjson = file_get_contents('json/dados1.json');
+		$dados = json_decode($dadosjson, true);
+		foreach ($dados as $pos => $valor) {
+			if ($valor['id_res'] == $cod) {
+				unset($dados[$pos]);
+				break;
+			}
+		}
+		$json = json_encode($dados, JSON_PRETTY_PRINT);
+		file_put_contents('json/dados1.json', $json);
+	}
+
+	function enviarResenha($array){
+		$dadosjson = file_get_contents('json/dados1.json');
+		$dados = json_decode($dadosjson, true);
+		$dados[] = $array;
+		$json = json_encode($dados, JSON_PRETTY_PRINT);
+		file_put_contents('json/dados1.json', $json);
+	}
+
 	function buscaJogoAutor($id_user){
 		$jogo = array();
 

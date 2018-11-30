@@ -23,10 +23,11 @@ if (@$_SESSION['login'] == "admin") {
         <button class="botaozinhu">Editar
         </button>
       </a>
-      <button class="botaozinhu">
-        <a href="exclusao.php">Excluir
-        </a>
-      </button>
+      <a href="exclusao.php?cod=<?=$id_user ?>">
+        <button class="botaozinhu">
+          Excluir
+        </button>
+      </a>
     </section>
     <?php
 }
