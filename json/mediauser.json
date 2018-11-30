@@ -3,5 +3,10 @@
         "cod_res": 1,
         "id_user": 0,
         "media": 4
+    },
+    {
+        "cod_res": "20",
+        "id_user": "0",
+        "media": "5"
     }
 ]

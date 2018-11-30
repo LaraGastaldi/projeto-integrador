@@ -116,6 +116,7 @@
 		$mediauser = json_decode($mediauserjson, true);
 		foreach ($dados as $pos => $valor){
 			if ($valor['cod_res'] == $cod) {
+				$pos1=$pos;
 				$dados[$pos]['media'] = ($dados[$pos]['media'] + $media) / 2;
 				break;
 			}
@@ -129,8 +130,8 @@
 				}
 			}
 		}
-		if ($existe == false) {
-			$mediauser[] = array("cod_res" => $cod, "id_user" => $id, "media" => $meda);
+		if ($existe === false) {
+			$mediauser[] = array("cod_res" => (int)$cod, "id_user" => (int)$id, "media" => (float)$media);
 		}
 		$json = json_encode($dados, JSON_PRETTY_PRINT);
     file_put_contents('json/media.json', $json);

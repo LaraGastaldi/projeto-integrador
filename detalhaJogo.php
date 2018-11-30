@@ -176,7 +176,6 @@ if (buscaUsuarioLike($jogo['id'], @$usuario['id_user']) || buscaUsuarioLike($jog
   </h3>
 <?php
 	if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
-		if (buscaUsuarioLike($jogo['id'], @$usuario['id_user']) || buscaUsuarioLike($jogo['id'], @$usuario1['id_user'])){
 ?>
 	      <p>
 					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=1"><span class="fa fa-star"></span></a>
@@ -187,17 +186,6 @@ if (buscaUsuarioLike($jogo['id'], @$usuario['id_user']) || buscaUsuarioLike($jog
 
 	      </p>
 <?php
-			}else{
-?>
-	      <p>
-					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=1"><span class="fa fa-star"></span></a>
-					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=2"><span class="fa fa-star"></span></a>
-					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=3"><span class="fa fa-star"></span></a>
-					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=4"><span class="fa fa-star"></span></a>
-					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=5"><span class="fa fa-star"></span></a>
-	      </p>
-<?php
-			}
 	}else{
 	?>
 	      <p style="color: red;">
