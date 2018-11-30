@@ -1,12 +1,4 @@
 {
-    "1": {
-        "id": 2,
-        "autor": "0",
-        "nome": "Resident Evil",
-        "categoria": "Terror",
-        "descricao": "Resident Evil: \u00c9 um jogo onde seu objetivo \u00e9 tentar sobreviver neste lugar repleto de criaturas e seres humanos infectados.",
-        "imagem": "imagens\/residentevil.jpg"
-    },
     "2": {
         "id": 3,
         "autor": "0",

@@ -30,6 +30,15 @@ if (@$_SESSION['login'] == "admin") {
       </a>
     </section>
     <?php
+}else{
+?>
+    <section class="lado">
+      <a href="">
+        <button class="botaozinhu">Denunciar
+        </button>
+      </a>
+    </section>
+<?php
 }
 ?>
     <h2>
@@ -177,6 +186,19 @@ if (buscaUsuarioLike($jogo['id'], @$usuario['id_user']) || buscaUsuarioLike($jog
   </h3>
 <?php
 	if (@isset($_SESSION['login']) or @isset($_COOKIE['admin'])) {
+    $verifica = buscaUsuarioMedia($id_res, $usuario['id_user']);
+    if ($verifica !== false) {
+?>
+        <p style="color: red;">
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          Você já avaliou (<?=$verifica ?> estrelas)
+        </p>
+<?php
+    }else{
 ?>
 	      <p>
 					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=1"><span class="fa fa-star"></span></a>
@@ -184,9 +206,9 @@ if (buscaUsuarioLike($jogo['id'], @$usuario['id_user']) || buscaUsuarioLike($jog
 					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=3"><span class="fa fa-star"></span></a>
 					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=4"><span class="fa fa-star"></span></a>
 					<a href="editarMedia.php?cod=<?=$id_res ?>&id=<?=$usuario['id_user'] ?>&media=5"><span class="fa fa-star"></span></a>
-
 	      </p>
 <?php
+    }
 	}else{
 	?>
 	      <p style="color: red;">

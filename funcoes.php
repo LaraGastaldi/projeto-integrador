@@ -129,6 +129,21 @@
 		}
 	}
 
+	function buscaUsuarioMedia($cod, $id){
+		$dadosjson = file_get_contents('json/mediauser.json');
+
+		$dados = json_decode($dadosjson, true);
+		foreach ($dados as $valor) {
+				if ($valor['cod_res'] == $cod) {
+						if ($valor['id_user'] == $id){
+								return $valor['media'];
+								break;
+						}
+				}
+		}
+		return false;
+	}
+
 	function addMedia($cod, $id, $media){
 		$dadosjson = file_get_contents('json/media.json');
 		$existe = false;

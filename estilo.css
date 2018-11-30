@@ -267,8 +267,7 @@ label{
 }
 .lista{
 	background-image: url("horror.png");
-	background-size: 100%;
-	width: 30%;
+	background-size: 300%;
 	float: left;
 	border: 1px solid #fff;
 	margin: 1%;
@@ -276,8 +275,7 @@ label{
 }
 .listaa{
 	background-image: url("acav.jpg");
-	background-size: 100%;
-	width: 30%;
+	background-size: 300%;
 	float: left;
 	border: 1px solid #fff;
 	margin: 1%;
@@ -285,8 +283,7 @@ label{
 }
 .listaaa{
 	background-image: url("rpg.jpg");
-	background-size: 110%;
-	width: 30%;
+	background-size: 500%;
 	float: left;
 	border: 1px solid #fff;
 	margin: 1%;

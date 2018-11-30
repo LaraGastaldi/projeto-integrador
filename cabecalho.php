@@ -33,7 +33,7 @@ $mascote = escolherMascote();
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="faq.php">FAQ
+          <a class="nav-link" href="categoria.php">Resenhas
           </a>
         </li>
         <li class="nav-item">
